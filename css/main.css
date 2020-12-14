@@ -1,0 +1,267 @@
+/***** BASE STYLE *****/
+
+body {
+    font-family: 'ABeeZee', sans-serif;
+    color: #260e06;
+     overflow:auto;   
+    
+}
+
+
+/***** TOP *****/
+nav{
+    
+height: 225px;
+border-bottom: 8px solid #69867e;
+width: auto;
+
+}
+.top  img{
+    width: 22.34px;
+    height: 24.71px;
+    margin: 5px 0 0 0;
+  
+}
+
+.top-nav {
+    background-color: #b3c4bf;
+    height: 48px;
+    margin: 60px 0 0 0;  
+}
+
+.top-nav-list  {
+    float:right;
+    margin: 5px 120px 0 0; 
+}
+.top-nav-list  li  {
+    display: inline;
+    font-size: 18px;
+    padding: 0 20px 0 0; 
+}
+.top-nav-list  li a {
+    color:#260e06;
+    text-transform: uppercase;
+    text-decoration: none;  
+}
+#find-us {
+    border-right: 2px solid #260e06;
+    padding: 0 15px 0 0; 
+}
+    
+#sign-in{
+    border-right: 2px solid #260e06;
+    padding-right: 15px;
+    margin-left:15px ;
+}
+
+#join-now {
+    margin-left:15px ;
+}
+.bottom-nav ul {
+    
+     margin: 140px 10px 0 10px;
+    text-align: center;
+    
+
+}
+
+.bottom-nav ul li  {
+    display:inline-block;
+    font-size: 18px;
+    padding: 0 200px;
+    
+    
+   
+}
+.bottom-nav ul li a {
+    color:#260e06;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.main{
+    background-image:url(../img/hero-image.jpg);
+    height: 693px;
+    margin: 0 auto; 
+    border-bottom: solid 8px #69867e;
+    background-repeat: no-repeat;
+     background-size: cover;
+    
+    
+    
+
+}
+#main-image {
+    width: 873.26px;
+    height: 519.65px;
+    padding:100px 0 0 140px;
+   
+}
+.button-one{
+    position: absolute;
+    left:550px;
+    top: 900px;
+    background-color: #69867e;
+    border-radius: 20px;
+    font-size: 18px;  
+    padding: 10px;
+    text-decoration: none;
+    color:  #ffffff;
+   
+   
+}
+
+/***** MENU *****/
+
+ .about{
+   height: 1200px;
+   width: 1366px ;
+   margin: auto;
+   text-align: center;
+   
+}
+.menu  {
+    float: left;
+    width:  335px;
+    box-sizing: border-box; 
+    padding: 80px 0 50px 0;
+}
+   
+.menu-one h4,.menu-two h4,.menu-three h4,.menu-four h4{
+    font-size: 23px;
+    width: 230px;
+    border-bottom: solid 8px #69867e;
+    margin: 52.5px;
+    padding: 0 0 15px 0;
+    border-radius: 5px;
+}
+.menu-one img,.menu-two img,.menu-three img,.menu-four img{
+   width: 276.42px;
+   height: 276.42px;
+   margin: 20px 0 20px 0;
+
+}
+.menu-buttons{
+    background-color: #e9d1d5;
+    border-radius: 20px;
+    font-size: 18px;  
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #260e06;
+}
+.menu p{
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 100px 0;
+  
+}
+#about-story {
+    clear: both;
+    font-size: 35px;
+    background-color: #b3c4bf;
+    border-radius: 40px;
+    padding: 10px 15px 10px 15px;
+    line-height: 55px; 
+}
+
+/***** BOTTOM *****/
+
+.bottom {
+    width: 1366px;
+    height: 700px;
+    margin: auto;  
+}
+
+#hours{
+    font-size: 35px;
+    text-align: center;
+    padding: 0 0 150px 0;
+    
+}
+.more-about {
+    float: left;
+    width:455.33px;
+    box-sizing: border-box;  
+}
+
+.more-about img {
+    width: 179.95px;
+    height: 121.95px;  
+    padding: 0 0 20px 50px;  
+}
+.address p{
+    font-size: 23px;
+    padding: 0 0 0 30px; 
+    line-height: 40px; 
+}
+.sign-up{
+    margin: 100px 0 0 0;
+}
+.sign-up a{
+    background-color: #e9d1d5;
+    border-radius: 20px;
+    font-size: 18px;  
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    font-size: 23px;
+    color: #260e06;
+    margin: 0 0 0 100px;
+    
+}
+.info ul li{
+    font-size: 23px;
+    padding: 0 20px 40px 240px; 
+    list-style: none;
+}
+.info  ul li a {
+    text-decoration: none;
+    color: #260e06;
+}
+
+
+
+/***** SOCIAL *****/
+
+.follow{
+    width: 1399px;
+    margin: auto;
+    text-align: center;
+}
+.follow h4{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 0 0 50px 0;
+    border-bottom: solid 8px #69867e;
+}
+
+.instagram{
+    padding: 0px 0 40px 0;
+    border-bottom: solid 8px #69867e;
+
+}
+.instagram img {
+    padding: 0 20px 0px 20px;
+  
+}
+
+.social-images img{
+    width: 41.61px;
+    height: 41.61px;
+    padding: 20px 10px 50px 10px;
+}
+.social {
+    width: 435px;
+    margin: auto;
+}
+.social-images li { 
+    display: inline-block;
+   list-style: none;
+   
+}
+.follow p {
+  font-size: 20px;
+  text-align: center;
+  margin: 0 0 100px 0;
+
+}
